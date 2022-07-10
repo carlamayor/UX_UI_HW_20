@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description"
+		content="A slideshow component for cycling through elements—images or slides of text—like a carousel.">
+	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	<meta name="generator" content="Jekyll v3.7.0">
+
+	<title>Carousel · Bootstrap</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.0/components/carousel/">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+	<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<link href="/docs/5.0/assets/css/docs.css" rel="stylesheet">
+
+
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+
+
+
+
+<body>
+	<header>
+
+	</header>
+	<main>
+
+
+
+
+
+
+
+
+		<div class="bd-example">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="images/hero-1.jpg" alt="First slide">
+						<div class="carousel-caption">
+							<h1>VISIT RIVIERA MAYA</h1>
+							<p>EXPLORE ONE OF THE NEW SEVEN WONDERS OF THE WORLD</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="images/hero-2.jpg" alt="Second slide">
+						<div class="carousel-caption">
+							<h1>UNCOVER NEW SURROUNDINGS</h1>
+							<p>SWIM THRUOUGH OUR BEAUTIFUL NATURAL WATER CAVES.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="images/hero-3.jpg" alt="Third slide">
+						<div class="carousel-caption">
+							<h1>ENJOY AND LIVE YOU LIFE TO THE FULLEST IN MEXICO'S MOST VISITED BEACHES</h1>
+							<p>We have the most visited beaches in the world. Explore them today!</p>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="container">
+			<h1 class="section1">VISIT OUR NATURAL CENOTES</h1>
+			<p> A cenote is a natural pit, or sinkhole, resulting from the collapse of limestone bedrock that
+				exposes
+				groundwater. The regional term is specifically associated with the Yucatán Peninsula of Mexico,
+				where
+				cenotes were commonly used for water supplies by the ancient Maya, and occasionally for sacrificial
+				offerings.</p>
+
+
+
+			<div class="shadow p-3 mb-5 bg-white rounded">
+				<div class="container">
+					<div class="card-body">
+						<h3 class="card-title">Two Eyes</h3>
+						<p class="card-text">Flooded cave located at the North of Tulum. It has crystal clear natural
+							swimming pool holes that are popular for it's snorkeling and scuba diving experiences.</p>
+
+					</div>
+					<div class="row">
+						<div class="col">
+							<img src="images/cenote1.jpeg" class="card-img-top" alt="...">
+						</div>
+						<div class="col">
+							<img src="images/cenote2.jpeg" class="card-img-top" alt="...">
+						</div>
+						<div class="col">
+							<img src="images/cenote4.jpeg" class="card-img-top" alt="...">
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="shadow p-3 mb-5 bg-white rounded">
+				<div class="container">
+
+					<div class="card-body">
+						<h3 class="card-title">Chaak Tun</h3>
+						<p class="card-text">Caverns that are popular because of the stalactites that you can see
+							inside
+							of them. Deep water sinkholes open to the public with pillars of light that illuminate
+							the
+							caves. Consider by locals as a private oasis.</p>
+
+					</div>
+					<div class="row">
+						<div class="col">
+							<img src="images/cenote8.jpeg" class="card-img-top" alt="...">
+						</div>
+						<div class="col">
+							<img src="images/cenote10.jpeg" class="card-img-top" alt="...">
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+		<div class="container  seccion">
+			<h1 class="mt-3 mb-3">BEACH DESTINATIONS</h1>
+			<div class="accordion" id="accordionSection">
+				<div class="accordion-item shadow p-3 mb-5 bg-white rounded">
+
+					<h2 class="accordion-header">
+						<button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+							data-bs-target="#collapseOne">PLAYA DEL CARMEN</button>
+					</h2>
+					<div class="accordion-collapse collapse" id="collapseOne" data-bs-parent="#accordionSection">
+						<div class="accordion-body">
+							<div class="row">
+								<div class="col">
+									<img src="images/playa1.jpeg" class="card-img-top" alt="...">
+								</div>
+								<div class="col">
+									<p>This is a coastal resort town located in Yucatan Peninsula's . It is commonly
+										known by its palm lined beaches and coral reefs</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="accordion-item  shadow p-3 mb-5 bg-white rounded">
+					<h2 class="accordion-header">
+						<button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo">HOLBOX</button>
+					</h2>
+					<div class="accordion-collapse collapse" id="collapseTwo" data-bs-parent="#accordionSection">
+						<div class="accordion-body">
+							<div class="row">
+								<div class="col">
+									<p>It is a small beach that attracts population because it has exotic avian life
+										that includes flamingos & pelicans.<br>Shallow lagoon where tourists can enjoy
+										whale shark viewing & eat amazing lobster as it is the main fishing product from
+										the area.</p>
+								</div>
+								<div class="col">
+									<img src="images/playa2.jpeg" class="card-img-top" alt="...">
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="accordion-item shadow p-3 mb-5 bg-white rounded">
+					<h2 class="accordion-header">
+						<button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+							data-bs-target="#collapseThree">COZUMEL</button>
+					</h2>
+					<div class="accordion-collapse collapse" id="collapseThree" data-bs-parent="#accordionSection">
+						<div class="accordion-body">
+							<div class="row">
+								<div class="col">
+									<img src="images/playa3.jpeg" class="card-img-top" alt="...">
+								</div>
+								<div class="col">
+									<p>Cozumel, a mostly undeveloped Mexican island in the Caribbean Sea, is a popular
+										cruise ship port of call famed for its scuba diving. At Arrecifes de Cozumel
+										National Park, there's diving spots around a section of the Mesoamerican Reef
+										and the Museo Subacuático de Arte’s submerged sculptures. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="container marketing">
+
+			<h1 class="section2">FUN THINGS TO DO WHILE VISITING</h1>
+			<div class="row">
+				<div class="col-lg-4">
+					<svg class="bd-placeholder-img rounded-circle" width="140" height="140"></svg>
+					<img src="images/xcaret3.jpeg" class="rounded-circle img-fluid img-thumbnail rounded"
+						alt="Cinque Terre">
+					<title>Placeholder</title>
+					</svg>
+
+					<h2>XCARET</h2>
+					<p>Enjoy outdoor activvities like snorkeling, swimming underground and pools of water. In addition,
+						you can visit the Coral Reef and the sea turtle center to learn a bit of the living species that
+						live in this region.</p>
+					<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+				</div>
+				<div class="col-lg-4">
+					<svg class="bd-placeholder-img rounded-circle" width="140" height="140"></svg>
+					<img src="images/temazcal.jpeg" class="rounded-circle img-fluid img-thumbnail rounded"
+						alt="Cinque Terre">
+					<title>Placeholder</title>
+
+					</svg>
+
+					<h2>TEMAZCALAT</h2>
+					<p>At daytime this unique experience will be guided by a shaman .</p>
+					<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+				</div>
+				<div class="col-lg-4">
+					<svg class="bd-placeholder-img rounded-circle" width="140" height="140"></svg>
+					<img src="images/mexico-esp.jpeg" class="rounded-circle img-fluid img-thumbnail rounded"
+						alt="Cinque Terre">
+					<title>Placeholder</title>
+					</svg>
+
+					<h2>MEXICO ESPECTACULAR</h2>
+					<p>This is a nightime sow with a duration of two hours where you can learn more of the typical
+						dances and performances from some states. It has more than 300 artists on stage. </p>
+					<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<div class="container ">
+			<h3 class="text-white bg-info mt-3 mb-3 "> CULTURE IN ONE OF THE 7 WORNDERS OF THE NEW WORLD </h3>
+			<div class="card-group">
+				<div class="card">
+					<img class="card-img-top" src="images/ballgame3.png" alt="Card image cap">
+					<div class="card-body">
+						<h2 class="card-title">MAYAN BALL GAME</h2>
+						<p class="card-text">The Ball Game was more a ceremonial ritual than a sport and probably
+							represented the symbolic recreation of the mythical combat between night and day. Largest
+							ball court in Mesoamerica</p>
+
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="images/temple.jpeg" alt="Card image cap">
+					<div class="card-body">
+						<h2 class="card-title">TEMPLE OF THE WARRIORS</h2>
+						<p class="card-text">This is a structure in Chichen Itza that was used for large gatherings. It
+							has 4 platforms surrounded by 200 round square columns.The central temple shows bas-reliefs
+							of warriors, eagles and jaguars devouring human hearts.</p>
+
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="images/sculpture2.jpeg" alt="Card image cap">
+					<div class="card-body">
+						<h2 class="card-title">The Tomb of the Chaac Mol</h2>
+						<p class="card-text">This substructure is conserved inside the basement of the Temple of the
+							Warriors. Inside was a statue of Chaac Mool wearing a type of helmet and a belt from which
+							are hanging human heads. </p>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</main>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+	<script src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js referrerpolicy="no-referrer"></script>
+	<script src=https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js
+		integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+		crossorigin="anonymous"></script>
+	<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js
+		integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+		crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+<footer>
+
+</footer>
+
+
+</html>
